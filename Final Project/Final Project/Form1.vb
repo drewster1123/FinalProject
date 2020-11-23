@@ -13,7 +13,7 @@
     Dim floorsidesL() As PictureBox
     Dim floorsidesR() As PictureBox
     Dim Bottoms() As PictureBox
-
+    Dim death() As PictureBox
 
 
 
@@ -23,6 +23,7 @@
         floorsidesL = New PictureBox() {Floor1L, Floor2L, Floor3L, Floor4L, Floor5L, Floor6L}
         floorsidesR = New PictureBox() {Floor1R, Floor2R, Floor3R, Floor4R, Floor5R, Floor6R}
         Bottoms = New PictureBox() {Bottom1, Bottom2, Bottom3, Bottom4, Bottom5, Bottom6}
+        death = New PictureBox() {dead}
     End Sub
 
 
@@ -32,6 +33,12 @@
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Main()
+
+        gameOver.Visible = False
+        GameOverBack.Visible = False
+        dead.Visible = False
+
+
         'jump hitboxes locations ontop of the floors 
         For i = 0 To Floors.Length - 1
             jumpHB(i).Location = Floors(i).Location
@@ -57,17 +64,32 @@
             Bottoms(i).Width = Floors(i).Width
         Next
 
-
+        For i = 0 To Floors.Length - 1
+            Bottoms(i).Height = 20
+        Next
     End Sub
 
     Private Sub Form1_KeyDown(sender As Object, e As KeyEventArgs) Handles Me.KeyDown
-        If e.KeyCode = Keys.D Then
-            Xspeed = -5
-        End If
-        If e.KeyCode = Keys.A Then
-            Xspeed = 5
-        End If
 
+        For i = 0 To floorsidesL.Length - 1
+            If Player.Bounds.IntersectsWith(floorsidesL(i).Bounds) Then
+                Xspeed = 5
+            Else
+                If e.KeyCode = Keys.D Then
+                    Xspeed = -5
+                End If
+            End If
+        Next
+
+        For i = 0 To floorsidesR.Length - 1
+            If Player.Bounds.IntersectsWith(floorsidesR(i).Bounds) Then
+                Xspeed = -5
+            Else
+                If e.KeyCode = Keys.A Then
+                    Xspeed = 5
+                End If
+            End If
+        Next
 
         For i = 0 To Floors.Length - 1                                  ' this checks to see if the player is colliding with and jump hit boxes in the jumpHB array
             If Player.Bounds.IntersectsWith(jumpHB(i).Bounds) Then
@@ -128,28 +150,31 @@
             End If
         Next
 
-        For i = 0 To Floors.Length - 1
+        For i = 0 To Floors.Length - 1      '' to help with the sticking 
             If Player.Bounds.IntersectsWith(Bottoms(i).Bounds) Then
                 Yspeed = 0
+                Player.Top += 3
             End If
         Next
 
-        For i = 0 To Floors.Length - 1
-            If Player.Bounds.IntersectsWith(floorsidesL(i).Bounds) Then ''' the sides are fucked rn but ill fix them later
-                Xspeed += 5
-            Else
+        'For i = 0 To Floors.Length - 1
+        '    If Player.Bounds.IntersectsWith(floorsidesL(i).Bounds) Then ''' the sides are fucked rn but ill fix them later
+        '        Xspeed += 5
+        '    Else
+        '    End If
+        'Next
+
+        'For i = 0 To Floors.Length - 1
+        '    If Player.Bounds.IntersectsWith(floorsidesR(i).Bounds) Then
+        '        Xspeed += -5
+        '    End If
+        'Next
+        For i = 0 To death.Length - 1
+            If Player.Bounds.IntersectsWith(death(i).Bounds) Then
+                gameOver.Visible = True
+                GameOverBack.Visible = True
             End If
         Next
-        For i = 0 To Floors.Length - 1
-            If Player.Bounds.IntersectsWith(floorsidesR(i).Bounds) Then
-                Xspeed += -5
-            End If
-
-
-        Next
-
-
-
 
 
     End Function
