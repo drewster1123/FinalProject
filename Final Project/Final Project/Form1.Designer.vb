@@ -119,7 +119,7 @@ Partial Class Form1
         'Player
         '
         Me.Player.Image = Global.Final_Project.My.Resources.Resources.Project_Brick
-        Me.Player.Location = New System.Drawing.Point(384, 556)
+        Me.Player.Location = New System.Drawing.Point(417, 449)
         Me.Player.Name = "Player"
         Me.Player.Size = New System.Drawing.Size(71, 100)
         Me.Player.TabIndex = 6
@@ -127,9 +127,8 @@ Partial Class Form1
         '
         'PictureBox6
         '
-        Me.PictureBox6.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.PictureBox6.Image = Global.Final_Project.My.Resources.Resources.Project_Floor_just_bricks
-        Me.PictureBox6.Location = New System.Drawing.Point(637, 329)
+        Me.PictureBox6.Location = New System.Drawing.Point(670, 222)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(202, 60)
         Me.PictureBox6.TabIndex = 5
@@ -137,9 +136,8 @@ Partial Class Form1
         '
         'PictureBox5
         '
-        Me.PictureBox5.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.PictureBox5.Image = Global.Final_Project.My.Resources.Resources.Project_Floor_just_bricks
-        Me.PictureBox5.Location = New System.Drawing.Point(1104, 421)
+        Me.PictureBox5.Location = New System.Drawing.Point(1137, 314)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(281, 60)
         Me.PictureBox5.TabIndex = 4
@@ -147,9 +145,8 @@ Partial Class Form1
         '
         'PictureBox4
         '
-        Me.PictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.PictureBox4.Image = Global.Final_Project.My.Resources.Resources.Project_Floor_just_bricks
-        Me.PictureBox4.Location = New System.Drawing.Point(1557, 561)
+        Me.PictureBox4.Location = New System.Drawing.Point(1590, 454)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(286, 60)
         Me.PictureBox4.TabIndex = 3
@@ -157,9 +154,8 @@ Partial Class Form1
         '
         'PictureBox3
         '
-        Me.PictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.PictureBox3.Image = Global.Final_Project.My.Resources.Resources.Project_Floor_just_bricks
-        Me.PictureBox3.Location = New System.Drawing.Point(1213, 696)
+        Me.PictureBox3.Location = New System.Drawing.Point(1246, 589)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(281, 60)
         Me.PictureBox3.TabIndex = 2
@@ -167,9 +163,8 @@ Partial Class Form1
         '
         'PictureBox2
         '
-        Me.PictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.PictureBox2.Image = Global.Final_Project.My.Resources.Resources.Project_Floor_just_bricks
-        Me.PictureBox2.Location = New System.Drawing.Point(788, 800)
+        Me.PictureBox2.Location = New System.Drawing.Point(821, 693)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(337, 60)
         Me.PictureBox2.TabIndex = 1
@@ -177,9 +172,8 @@ Partial Class Form1
         '
         'PictureBox1
         '
-        Me.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.PictureBox1.Image = Global.Final_Project.My.Resources.Resources.Project_Floor_just_bricks
-        Me.PictureBox1.Location = New System.Drawing.Point(-5, 802)
+        Me.PictureBox1.Location = New System.Drawing.Point(28, 695)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(559, 60)
         Me.PictureBox1.TabIndex = 0
@@ -188,7 +182,7 @@ Partial Class Form1
         'Jumphb1
         '
         Me.Jumphb1.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Jumphb1.Location = New System.Drawing.Point(56, 763)
+        Me.Jumphb1.Location = New System.Drawing.Point(89, 656)
         Me.Jumphb1.Name = "Jumphb1"
         Me.Jumphb1.Size = New System.Drawing.Size(259, 10)
         Me.Jumphb1.TabIndex = 8
@@ -197,7 +191,7 @@ Partial Class Form1
         'Jumphb2
         '
         Me.Jumphb2.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Jumphb2.Location = New System.Drawing.Point(833, 763)
+        Me.Jumphb2.Location = New System.Drawing.Point(866, 656)
         Me.Jumphb2.Name = "Jumphb2"
         Me.Jumphb2.Size = New System.Drawing.Size(259, 10)
         Me.Jumphb2.TabIndex = 9
@@ -206,7 +200,7 @@ Partial Class Form1
         'Jumphb3
         '
         Me.Jumphb3.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Jumphb3.Location = New System.Drawing.Point(1230, 676)
+        Me.Jumphb3.Location = New System.Drawing.Point(1263, 569)
         Me.Jumphb3.Name = "Jumphb3"
         Me.Jumphb3.Size = New System.Drawing.Size(259, 10)
         Me.Jumphb3.TabIndex = 10
@@ -215,7 +209,7 @@ Partial Class Form1
         'Jumphb4
         '
         Me.Jumphb4.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Jumphb4.Location = New System.Drawing.Point(1607, 508)
+        Me.Jumphb4.Location = New System.Drawing.Point(1640, 401)
         Me.Jumphb4.Name = "Jumphb4"
         Me.Jumphb4.Size = New System.Drawing.Size(259, 10)
         Me.Jumphb4.TabIndex = 11
@@ -224,7 +218,7 @@ Partial Class Form1
         'Jumphb5
         '
         Me.Jumphb5.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Jumphb5.Location = New System.Drawing.Point(1115, 403)
+        Me.Jumphb5.Location = New System.Drawing.Point(1148, 296)
         Me.Jumphb5.Name = "Jumphb5"
         Me.Jumphb5.Size = New System.Drawing.Size(259, 10)
         Me.Jumphb5.TabIndex = 12
@@ -233,7 +227,7 @@ Partial Class Form1
         'Jumphb6
         '
         Me.Jumphb6.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Jumphb6.Location = New System.Drawing.Point(626, 311)
+        Me.Jumphb6.Location = New System.Drawing.Point(659, 204)
         Me.Jumphb6.Name = "Jumphb6"
         Me.Jumphb6.Size = New System.Drawing.Size(259, 10)
         Me.Jumphb6.TabIndex = 13
@@ -242,7 +236,7 @@ Partial Class Form1
         'Floor1L
         '
         Me.Floor1L.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Floor1L.Location = New System.Drawing.Point(12, 734)
+        Me.Floor1L.Location = New System.Drawing.Point(12, 695)
         Me.Floor1L.Name = "Floor1L"
         Me.Floor1L.Size = New System.Drawing.Size(10, 60)
         Me.Floor1L.TabIndex = 14
@@ -251,7 +245,7 @@ Partial Class Form1
         'Floor1R
         '
         Me.Floor1R.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Floor1R.Location = New System.Drawing.Point(355, 734)
+        Me.Floor1R.Location = New System.Drawing.Point(593, 693)
         Me.Floor1R.Name = "Floor1R"
         Me.Floor1R.Size = New System.Drawing.Size(10, 60)
         Me.Floor1R.TabIndex = 15
@@ -260,7 +254,7 @@ Partial Class Form1
         'Floor2L
         '
         Me.Floor2L.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Floor2L.Location = New System.Drawing.Point(788, 734)
+        Me.Floor2L.Location = New System.Drawing.Point(821, 627)
         Me.Floor2L.Name = "Floor2L"
         Me.Floor2L.Size = New System.Drawing.Size(10, 60)
         Me.Floor2L.TabIndex = 16
@@ -269,7 +263,7 @@ Partial Class Form1
         'Floor2R
         '
         Me.Floor2R.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Floor2R.Location = New System.Drawing.Point(1115, 734)
+        Me.Floor2R.Location = New System.Drawing.Point(1148, 627)
         Me.Floor2R.Name = "Floor2R"
         Me.Floor2R.Size = New System.Drawing.Size(10, 60)
         Me.Floor2R.TabIndex = 17
@@ -278,7 +272,7 @@ Partial Class Form1
         'Floor6L
         '
         Me.Floor6L.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Floor6L.Location = New System.Drawing.Point(601, 327)
+        Me.Floor6L.Location = New System.Drawing.Point(634, 220)
         Me.Floor6L.Name = "Floor6L"
         Me.Floor6L.Size = New System.Drawing.Size(10, 60)
         Me.Floor6L.TabIndex = 18
@@ -287,7 +281,7 @@ Partial Class Form1
         'Floor6R
         '
         Me.Floor6R.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Floor6R.Location = New System.Drawing.Point(891, 327)
+        Me.Floor6R.Location = New System.Drawing.Point(924, 220)
         Me.Floor6R.Name = "Floor6R"
         Me.Floor6R.Size = New System.Drawing.Size(10, 60)
         Me.Floor6R.TabIndex = 19
@@ -296,7 +290,7 @@ Partial Class Form1
         'Floor5L
         '
         Me.Floor5L.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Floor5L.Location = New System.Drawing.Point(1093, 410)
+        Me.Floor5L.Location = New System.Drawing.Point(1126, 303)
         Me.Floor5L.Name = "Floor5L"
         Me.Floor5L.Size = New System.Drawing.Size(10, 60)
         Me.Floor5L.TabIndex = 20
@@ -305,7 +299,7 @@ Partial Class Form1
         'Floor5R
         '
         Me.Floor5R.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Floor5R.Location = New System.Drawing.Point(1406, 419)
+        Me.Floor5R.Location = New System.Drawing.Point(1439, 312)
         Me.Floor5R.Name = "Floor5R"
         Me.Floor5R.Size = New System.Drawing.Size(10, 60)
         Me.Floor5R.TabIndex = 21
@@ -314,7 +308,7 @@ Partial Class Form1
         'Floor4L
         '
         Me.Floor4L.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Floor4L.Location = New System.Drawing.Point(1580, 493)
+        Me.Floor4L.Location = New System.Drawing.Point(1613, 386)
         Me.Floor4L.Name = "Floor4L"
         Me.Floor4L.Size = New System.Drawing.Size(10, 60)
         Me.Floor4L.TabIndex = 22
@@ -332,7 +326,7 @@ Partial Class Form1
         'Floor3R
         '
         Me.Floor3R.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Floor3R.Location = New System.Drawing.Point(1505, 694)
+        Me.Floor3R.Location = New System.Drawing.Point(1538, 587)
         Me.Floor3R.Name = "Floor3R"
         Me.Floor3R.Size = New System.Drawing.Size(10, 60)
         Me.Floor3R.TabIndex = 24
@@ -341,7 +335,7 @@ Partial Class Form1
         'Floor3L
         '
         Me.Floor3L.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Floor3L.Location = New System.Drawing.Point(1185, 676)
+        Me.Floor3L.Location = New System.Drawing.Point(1218, 569)
         Me.Floor3L.Name = "Floor3L"
         Me.Floor3L.Size = New System.Drawing.Size(10, 60)
         Me.Floor3L.TabIndex = 25
@@ -350,7 +344,7 @@ Partial Class Form1
         'Bottom1
         '
         Me.Bottom1.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Bottom1.Location = New System.Drawing.Point(56, 866)
+        Me.Bottom1.Location = New System.Drawing.Point(89, 759)
         Me.Bottom1.Name = "Bottom1"
         Me.Bottom1.Size = New System.Drawing.Size(259, 10)
         Me.Bottom1.TabIndex = 26
@@ -359,7 +353,7 @@ Partial Class Form1
         'Bottom2
         '
         Me.Bottom2.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Bottom2.Location = New System.Drawing.Point(816, 866)
+        Me.Bottom2.Location = New System.Drawing.Point(849, 759)
         Me.Bottom2.Name = "Bottom2"
         Me.Bottom2.Size = New System.Drawing.Size(259, 10)
         Me.Bottom2.TabIndex = 27
@@ -368,7 +362,7 @@ Partial Class Form1
         'Bottom3
         '
         Me.Bottom3.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Bottom3.Location = New System.Drawing.Point(1230, 763)
+        Me.Bottom3.Location = New System.Drawing.Point(1263, 656)
         Me.Bottom3.Name = "Bottom3"
         Me.Bottom3.Size = New System.Drawing.Size(259, 10)
         Me.Bottom3.TabIndex = 28
@@ -377,7 +371,7 @@ Partial Class Form1
         'Bottom4
         '
         Me.Bottom4.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Bottom4.Location = New System.Drawing.Point(1589, 646)
+        Me.Bottom4.Location = New System.Drawing.Point(1622, 539)
         Me.Bottom4.Name = "Bottom4"
         Me.Bottom4.Size = New System.Drawing.Size(259, 10)
         Me.Bottom4.TabIndex = 29
@@ -386,7 +380,7 @@ Partial Class Form1
         'Bottom5
         '
         Me.Bottom5.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Bottom5.Location = New System.Drawing.Point(1115, 493)
+        Me.Bottom5.Location = New System.Drawing.Point(1148, 386)
         Me.Bottom5.Name = "Bottom5"
         Me.Bottom5.Size = New System.Drawing.Size(259, 10)
         Me.Bottom5.TabIndex = 30
@@ -395,7 +389,7 @@ Partial Class Form1
         'Bottom6
         '
         Me.Bottom6.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Bottom6.Location = New System.Drawing.Point(642, 419)
+        Me.Bottom6.Location = New System.Drawing.Point(675, 312)
         Me.Bottom6.Name = "Bottom6"
         Me.Bottom6.Size = New System.Drawing.Size(259, 10)
         Me.Bottom6.TabIndex = 31
@@ -404,7 +398,7 @@ Partial Class Form1
         'dead
         '
         Me.dead.BackColor = System.Drawing.SystemColors.Desktop
-        Me.dead.Location = New System.Drawing.Point(56, 882)
+        Me.dead.Location = New System.Drawing.Point(79, 832)
         Me.dead.Name = "dead"
         Me.dead.Size = New System.Drawing.Size(803, 54)
         Me.dead.TabIndex = 32
@@ -413,7 +407,7 @@ Partial Class Form1
         'GameOverBack
         '
         Me.GameOverBack.BackColor = System.Drawing.SystemColors.Desktop
-        Me.GameOverBack.Location = New System.Drawing.Point(277, 53)
+        Me.GameOverBack.Location = New System.Drawing.Point(310, 33)
         Me.GameOverBack.Name = "GameOverBack"
         Me.GameOverBack.Size = New System.Drawing.Size(1380, 157)
         Me.GameOverBack.TabIndex = 33
@@ -425,7 +419,7 @@ Partial Class Form1
         Me.gameOver.BackColor = System.Drawing.SystemColors.Desktop
         Me.gameOver.Font = New System.Drawing.Font("Microsoft Sans Serif", 72.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.gameOver.ForeColor = System.Drawing.Color.DarkRed
-        Me.gameOver.Location = New System.Drawing.Point(698, 80)
+        Me.gameOver.Location = New System.Drawing.Point(729, 57)
         Me.gameOver.Name = "gameOver"
         Me.gameOver.Size = New System.Drawing.Size(540, 108)
         Me.gameOver.TabIndex = 34
