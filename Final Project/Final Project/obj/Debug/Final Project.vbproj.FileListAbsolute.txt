@@ -10,3 +10,15 @@ C:\Users\shogu\Desktop\Programs\Final Project\Final Project\obj\Debug\Final Proj
 C:\Users\shogu\Desktop\Programs\Final Project\Final Project\obj\Debug\Final Project.exe
 C:\Users\shogu\Desktop\Programs\Final Project\Final Project\obj\Debug\Final Project.xml
 C:\Users\shogu\Desktop\Programs\Final Project\Final Project\obj\Debug\Final Project.pdb
+G:\Programs\Final Project\Final Project\bin\Debug\Final Project.exe.config
+G:\Programs\Final Project\Final Project\bin\Debug\Final Project.exe
+G:\Programs\Final Project\Final Project\bin\Debug\Final Project.pdb
+G:\Programs\Final Project\Final Project\bin\Debug\Final Project.xml
+G:\Programs\Final Project\Final Project\obj\Debug\Final Project.vbprojAssemblyReference.cache
+G:\Programs\Final Project\Final Project\obj\Debug\Final_Project.Form1.resources
+G:\Programs\Final Project\Final Project\obj\Debug\Final_Project.Resources.resources
+G:\Programs\Final Project\Final Project\obj\Debug\Final Project.vbproj.GenerateResource.cache
+G:\Programs\Final Project\Final Project\obj\Debug\Final Project.vbproj.CoreCompileInputs.cache
+G:\Programs\Final Project\Final Project\obj\Debug\Final Project.exe
+G:\Programs\Final Project\Final Project\obj\Debug\Final Project.xml
+G:\Programs\Final Project\Final Project\obj\Debug\Final Project.pdb
