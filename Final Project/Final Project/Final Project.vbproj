@@ -131,5 +131,26 @@
   <ItemGroup>
     <None Include="Resources\Cloud-PNG-4.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk_002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk_005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk_back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk_backk2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spikes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coins.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_processing20200424-23023-ppw52p.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

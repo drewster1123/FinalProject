@@ -32,12 +32,47 @@ Final Project
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Final_Project.My.Resources.Resources.coins">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Final_Project.My.Resources.Resources.image_processing20200424_23023_ppw52p">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Final_Project.My.Resources.Resources.Project_Brick">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:Final_Project.My.Resources.Resources.Project_Floor_just_bricks">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Final_Project.My.Resources.Resources.spikes">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Final_Project.My.Resources.Resources.walk_002">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Final_Project.My.Resources.Resources.walk_005">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Final_Project.My.Resources.Resources.walk_back">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Final_Project.My.Resources.Resources.walk_backk2">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
